@@ -1,0 +1,31 @@
+
+time_wait = 1 # min
+
+[logging]
+
+# d => day && interval = 1  | every day
+# h => hour && interval = 2 | every 2 hours
+# m => minute
+
+time = 'd'
+interval = 1
+backup_count = 7
+
+node = "http://localhost:26657"
+
+[telegram_bot]
+TOKEN = '5791832197:AAEvkzcUA-PGqJyUG-4zZIJ9bTOad644Ly0'
+admins = [1862834069]
+
+['accounts']
+w3coins = 'lava@1qtmhdxwszrdjum6mwfgg7mtzy2yr5rcvhvut9a'
+neptun = 'lava@14csezqjugs9ev4usavkqsyaagqxmrqqkg9jas2'
+wickedways = 'lava@10a0sjm3dzfgd0zrmgscw6rm6curqqj2apy4ern'
+casper = 'lava@17g24ugjd7qalcxl6we8k6ffe5c7j0t0qpjg32z'
+aquarius = 'lava@1wcw0xtpvfrernwhp6qj4v2hph25v78vtjupdly'
+webprovider = 'lava@1rpvghe0lqns749xj80a5kgm3mqtlacs4wezst4'
+maxvalidation = 'lava@1t9l8yaqsp8y88rfjxm2zgjqlk5rrpy6022lsdu'
+megadev = 'lava@1mmdka4epldzu0qt6tkq50p0japxcpwt4e7ag5v'
+lightningrpc = 'lava@1kws7t4tz8x9krkywag9fa08hp2zwyllmtxnmgx'
+seedvalidator = 'lava@1q9hy3dc9d9xve0j4r2cwdz3h7fqxccns0ru9yd'
+
