@@ -124,7 +124,7 @@ def check_provider_status(log: logging, config: dict, setting: dict):
 
     for account, account_value in config['accounts'].items():
         log.info(f"Moniker: {account} | {account_value}")
-        command = f'lavap q pairing account-info {account_value} -o json --node https://lava-testnet-rpc.w3coins.io:443'
+        command = f'lavap q pairing account-info {account_value} -o json --node {config['node']}'
         
         data = terminal(log, config, command)
 
